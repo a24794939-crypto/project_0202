@@ -9,7 +9,7 @@ model = ChatOpenAI(
     base_url="https://ws-02.wade0426.me/v1",
     api_key="EMPTY",
     model="Qwen/Qwen3-VL-2B-Instruct",
-    temperature=0,
+    temperature=0.1,
     max_tokens=256
 )
 
